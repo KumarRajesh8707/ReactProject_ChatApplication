@@ -1,0 +1,338 @@
+.modal {
+    /* box-shadow: 0 5px 10px rgba(215, 44, 44, 0.5); */
+    position: 'flex';
+    flex-direction: column;
+    padding: 0%;
+    max-width: 27%;
+    max-height: 80%;
+    margin-top: 5rem;
+    margin-left: 55rem;
+    border-radius: 5px;
+}
+.chatDialogBox>div>div{
+    height: 590px !important;
+    width: 350px !important;
+  }
+  .chatDialogBox{
+    height: 570px !important;
+    width: 2000px !important;
+
+  }
+  
+
+.btn-label {
+    color: white;
+    font-size: 18px;
+}
+
+.btn-header {
+    background-color: transparent;
+    border: none;
+}
+
+.paper {
+    margin-top: 0rem;
+    background-color: white;
+    display: 'center';
+    max-width: 100%;
+    height: 100%;
+    padding: 0%;
+    border-radius: 5px;
+}
+
+.paper .div1 {
+    background: transparent linear-gradient(90deg, #5F1EBE 0%, #2874F0 67%, #0F5FDC 100%) 0% 0% no-repeat;
+    align-items: center;
+    max-width: 100%;
+    max-height: 80%;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.paper .div1 .p1 {
+    color: #f9f6f6;
+    margin-left: 3rem;
+}
+
+.paper .div2 {
+    background-color: rgb(242, 244, 246);
+    align-items: center;
+    max-width: 100%;
+    height: 4%;
+    border: 1px groove;
+}
+
+.paper .div2 .p2 {
+    color: black;
+    margin-top: auto;
+    font-size: small;
+}
+
+.paper .p3 {
+    color: black;
+    margin-top: 0.3rem;
+    font-size: small;
+}
+
+.paper .span1 {
+    background-color: rgb(243, 245, 243);
+    color: black;
+    border-radius: 20%;
+    width: 50%;
+    font-size: medium;
+    margin-top: auto;
+    margin-left: 0;
+    padding: 2px;
+}
+
+.paper .pic1 {
+    width: 35px;
+    height: 25px;
+}
+
+.paper .div3 {
+
+    background-color: rgb(243, 245, 243);
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+    border-radius: 10px;
+    width: 50%;
+    height: 5%;
+    padding: 3px;
+
+}
+
+.paper .div3 .span2 {
+    color: black;
+}
+
+.paper .div4 {
+
+    background-color: rgb(243, 245, 243);
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+    border-radius: 10px;
+    width: 70%;
+    height: 10%;
+    padding: 3px;
+
+}
+
+.paper .div4 .span3 {
+    color: black;
+
+}
+
+/* .btn{
+    max-width: 100%;
+    height: 7  rem;
+    background-color: transparent;
+    color: blue;
+} */
+
+/* .paper .div5 {
+    max-width: 100%;
+    height: 4rem;
+    border: blue;
+} */
+.div5 {
+    margin: 0;
+    padding: 10px;
+}
+
+.btn {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0rem;
+    /* margin-right: 0.5rem; */
+    height: 30%;
+    border: 1px solid rgb(33, 33, 224);
+    border-radius: 10px;
+    padding: 3px;
+    /* color:blue; */
+    background-color: transparent;
+}
+.btn:hover{
+    background-color: rgb(182, 207, 240);
+
+}
+
+.paper .div6 .p {
+    color: black;
+}
+
+.div1 {
+    display: flex;
+}
+
+.btn2 {
+    margin-left: 50px;
+    background-color: #0F5FDC;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.msg1 {
+    color: black;
+    font-size: medium;
+    margin-left: 1rem;
+}
+
+.divbtn {
+    margin-left: 1rem;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+
+.user {
+    color: black;
+    font-size: medium;
+    background-color:rgb(182, 207, 240);
+    border-radius: 0.5vmax;
+    display: inline-block;
+    margin-left: 4rem !important;
+    /* padding: 5px; */
+}
+
+.msg2 {
+    color: black;
+    font-size: medium;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* display: inline-block; 
+    border-radius: 0.5vmax; */
+    /* padding: 12px; */
+    /* background-color: rgb(232, 236, 236); */
+}
+
+.bodyChatbot {
+    max-width: 100%;
+    width: 300px;
+    height: 250px;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+.msg1 {
+    color: black;
+}
+
+.p1 {
+    color: black;
+    margin-left: 1rem;
+   /* margin-right: 4rem; */
+    
+      /*width:80%;
+    padding: 0.5vmax;
+    margin: 0.1vmax;
+    border-radius: 0.5vmax;
+    /* display: inline-block; */
+    /* display: inline-block; 
+    border-radius: 0.6vmax; */
+    /* padding: 12px; */
+    /* background-color: rgb(232, 236, 236); */
+}
+
+/* .popupbox{
+    height: 700px !important;
+    width: 2045px !important;
+} */
+/* .p2{
+    font-size: 12px;
+} */
+
+.dialogSubHead {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: #c7d0d0 100px 50px; */
+    background-color: #d5d5d6;
+    /* margin: 8%; */
+    font-size: 13px;
+}
+
+.time {
+    /* background-color:; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 1% auto;
+    font-size: 13px;
+
+    /* height: 10px; */
+    /* height: 20px; */
+
+
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+/* .modelbody{
+    overflow-y: hidden !important;
+
+} */
+/* .dialog-content::-webkit-scrollbar {
+    display: none;
+} */
+
+.dialog-content {
+   
+    max-width: 100%;
+    width: 300px;
+    height: 250px;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    /* overflow-y:scroll;  */
+}
+
+.item-box::-webkit-scrollbar {
+    display: none;
+}
+
+.item-box {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+/* #outlined-basic{
+    width: 250px;
+} */
+/* #outlined-basic{
+    height: 5px!important;
+    width: 240px !important;
+    margin-bottom: 5px !important;
+  
+
+  } */
+.sendBtn{
+    text-align: center;
+    width: 50px !important;
+    color: rgb(242, 240, 248) !important;
+    background-color:green !important;
+   
+    height: 40px !important;
+    margin-left: 10px !important;
+    margin-right: 13px !important;
+
+
+  }
+
+  .response{
+    text-align: left;
+    align-items: end;
+  }
+  .textArea{
+    height: 30px!important;
+    width: 270px !important;
+    margin-right: 7px;
+    margin-left: 7px;
+  }

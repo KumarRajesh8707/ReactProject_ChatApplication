@@ -1,0 +1,73 @@
+.format{
+    height: 100% !important;
+    /* margin-bottom: 0 !important;
+    overflow: auto; */
+}
+.userDiv{
+  height: 100%;
+  width: 100%;
+  /* margin-left: 0; */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tT91qKgUpP9eVEQ_aYe0eSOjVxkhdzft9DI1FtmM6dgbjTHnhMzF2bU7tX1d4qZnhHmql19Am3A&usqp=CAU&ec=48600112');
+  background-repeat: no-repeat;
+  background-position:center;
+  /* object-fit:fill; */
+  background-position: left;
+  background-size:cover;
+}
+
+.completePage{
+    padding-top: 2%;
+    /* height: 100% !important; */
+    width: 100%!important;
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+    /* background-color: blanchedalmond ; */
+  }
+ 
+  .viewItem{
+    height: 100%;
+    width: 100%;
+    /* margin-left: 0; */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tT91qKgUpP9eVEQ_aYe0eSOjVxkhdzft9DI1FtmM6dgbjTHnhMzF2bU7tX1d4qZnhHmql19Am3A&usqp=CAU&ec=48600112');
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    /* object-fit:fill; */
+    background-position: left;
+    background-size:cover;
+  }
+  
+.cardHead2>a{
+    color: rgb(130, 157, 248);
+}
+.itemContainer{
+    width: 80%;
+    margin: 2% auto;
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+p{
+    color: black;
+}
+span{
+    color: black;
+}
+.itemDiv{
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2% auto;
+}
+.itemIndex{
+    width:3% ;
+}
+.itemDescription{
+    width: 80%;
+}
+.itemActions{
+    width:15%
+}

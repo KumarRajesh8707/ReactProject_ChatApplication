@@ -1,0 +1,97 @@
+/* .format{
+    height: 100% !important;
+} */
+.module-list{
+    list-style-type: none;
+}
+.template-list{
+    list-style-type: none;
+}
+.mainview{
+    min-height: 100%;
+    background-color: white;
+}
+.tableContainer{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tT91qKgUpP9eVEQ_aYe0eSOjVxkhdzft9DI1FtmM6dgbjTHnhMzF2bU7tX1d4qZnhHmql19Am3A&usqp=CAU&ec=48600112");
+    /* object-fit: contain; */
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+     display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+    /* overflow-y:scroll; */
+    overflow: hidden;
+
+}
+.card{
+    width: 100% !important;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* margin: 10px auto; */
+}
+.cardHead{
+    width:80% !important;
+    margin: 1% auto !important ;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.cardBody{
+    width:80% !important;
+    margin: 1% auto !important ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 1.9 !important;
+}
+.cardHead2{
+text-align: left !important;
+margin-left: 1% !important;
+}
+.carditem{
+    text-align: left !important;
+    margin-left: 4% !important;
+    margin-top: 0.1% !important;
+}
+.css-et1ao3-MuiTypography-root{
+    font-size: 1.2rem !important;
+    color: #2874F0;
+}
+.createButton{
+    margin-left: 10px !important;
+    background-color: #FEFBE9 !important;
+    color: #5F1EBE !important;
+    border: 1px solid #5F1EBE !important;
+}
+.icon{
+    color: #5F1EBE(244, 121, 40);
+    cursor: pointer;
+}
+.avatar{
+    background-image: linear-gradient(to bottom right,#5F1EBE,#2874F0);
+}
+.cardAction{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:80% !important;
+    margin: 1% auto !important ;
+}
+.createCircle{
+    width: 8% !important;
+    height: 8% !important;
+    color: grey;
+    position:fixed;
+    bottom: 160px;
+    right: -11px;
+    cursor: pointer;
+}

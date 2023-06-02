@@ -1,0 +1,105 @@
+#alert-dialog-title{
+    text-align: center;
+    color: whitesmoke;
+    background: transparent linear-gradient(90deg, #5F1EBE 0%, #2874F0 67%, #0F5FDC 100%) 0% 0% no-repeat;
+    font-size: 18px;
+  
+  }
+ 
+  .button{
+    text-align: center;
+    width: 50px !important;
+    color: whitesmoke !important;
+    background-color:green !important;
+    margin-left: 5%;
+    height: 40px !important;
+    margin-left: 3px !important;
+
+
+  }
+ .suggestionbtn{
+  text-align: center;
+  /* background-color:rgb(199, 193, 206) !important; */
+  padding: 0.2vmax;
+    margin: 0.3vmax;
+    border-radius: 0.5vmax;
+  /* height: 40px !important;
+  margin-left: 3px !important; */
+ }
+  .time{
+    /* background-color:; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 1% auto;
+    font-size: 13px;
+
+    /* height: 10px; */
+    /* height: 20px; */
+    
+  
+
+  }
+  .text{
+    display: flex;
+    justify-content:center;
+  }
+  .dialoghead2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: #c7d0d0 100px 50px; */
+    background-color:#d5d5d6;
+    /* margin: 8%; */
+    font-size: 13px;
+  }
+  .textfield{
+    padding-left: 40px;
+    display: flex;
+    justify-content:center;
+    height: 35px !important;
+  }
+  #outlined-basic{
+    height: 10px!important;
+    width: 250px !important;
+    margin-bottom: 5%;
+  
+
+  }
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    height: 0.8em;
+  }
+  .chatDialogBox>div>div{
+    height: 590px !important;
+    width: 350px !important;
+  }
+  .chatDialogBox{
+    height: 570px !important;
+    width: 2000px !important;
+
+  }
+  
+  .upperdiv{
+    padding-top: 10px !important;
+  }
+  .bottomtext{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #b1f4f4 100px 50px;
+    /* padding-top: 10px !important; */
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  .input-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .buttondiv {
+    margin: 0;
+    padding: 10px;
+    /* border: 1px solid rgb(33, 33, 224); */
+    
+}
+

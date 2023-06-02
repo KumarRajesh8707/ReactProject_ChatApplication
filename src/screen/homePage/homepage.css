@@ -1,0 +1,65 @@
+.format{
+   height: 100vh !important;
+}
+.container {
+    
+  height: 100%;
+  width: 100%;
+  /* text-align: center; */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tT91qKgUpP9eVEQ_aYe0eSOjVxkhdzft9DI1FtmM6dgbjTHnhMzF2bU7tX1d4qZnhHmql19Am3A&usqp=CAU&ec=48600112');
+  background-repeat: no-repeat;
+  background-position:center;
+  /* object-fit:fill; */
+  background-position: left;
+  background-size:cover;
+  
+  
+   
+  } 
+  h1{
+    text-align: center;
+  margin-top: 0%;
+    
+  }
+  /* .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  } */
+  /* .view{
+    padding-top: 2%;
+    width: 100%!important;
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+  } */
+  .allbox{
+    
+    width:50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.8;
+    
+  }
+  
+  .card{
+      width:40% !important;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: whitesmoke !important;
+  }
+  .SignupButton{
+    background-color: #082148 !important;
+    color: aliceblue;
+    border: none;
+    width:30%;
+    /* transition: all 0.3s;
+    cursor: pointer; */
+  }
+.SignupButton:hover{
+  background-color:  #2874F0 !important;
+}

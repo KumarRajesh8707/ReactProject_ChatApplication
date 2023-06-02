@@ -1,0 +1,25 @@
+.messageBox{
+    
+    border-radius: 0.5vmax;
+    display: inline-block;
+    
+    /* background-color: aquamarine; */
+    
+}
+.right{
+    /* float:right; */
+    /* width:80%; */
+    padding: 0.3vmax;
+    /* margin: 0.5vmax; */
+    border-radius: 0.5vmax;
+    display: inline-block;
+    background-color:rgb(182, 207, 240)!important;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    
+    
+}
+.left{
+    float: left ;
+    background-color: aquamarine;
+    /* background-color: rgb(66, 66, 111); */
+}

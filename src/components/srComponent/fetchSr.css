@@ -1,0 +1,108 @@
+
+.format{
+    height: 100vh !important;
+ }
+.table th {
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    text-align: left;
+
+    background-color: #3904aa !important;
+
+    color: white;
+
+}
+
+.table {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-collapse: collapse;
+
+    width: 100%;
+
+}
+
+
+
+.table td,
+.table th {
+
+    border: 1px solid #ddd;
+
+    padding: 3px;
+
+}
+
+
+
+.table tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.commentCell2 {
+    max-width: 5px; 
+    padding-right: 5px;
+    
+        padding-left: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    
+    .commentCell2:hover {
+    white-space: normal;
+    overflow: visible;
+    }
+
+    .sr {
+
+        height: 12px;
+    
+        align-items: center;
+    
+        padding-right: 5px;
+    
+        padding-left: 4px;
+    
+        width: 150px;
+    
+    }
+    
+    .issueType{
+    
+        height: 12px;
+    
+        align-items: center;
+    
+        padding-right: 5px;
+    
+        padding-left: 4px;
+    
+        width: 200px;
+    
+    }
+
+    
+    .chatbox{
+    
+        height: 12px;
+    
+        align-items: center;
+    
+        padding-right: 5px;
+    
+        padding-left: 4px;
+    
+        width: 250px;
+    
+    }

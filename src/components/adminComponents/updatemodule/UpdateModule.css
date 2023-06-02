@@ -1,0 +1,24 @@
+/* div.form{display: block;text-align: center;} */
+.delete-div{
+    height: 100% !important;
+ }
+.form{display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    line-height: 2;
+    width: 60%;}
+/* .labelBlock{ width: 50%;} */
+
+.buttonstyle{
+    margin-top:30px;
+    margin-bottom: 30px;
+}

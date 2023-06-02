@@ -1,0 +1,80 @@
+/* .format{
+    width: 50%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.signUpMain{
+  background-color: #FEFBE9;
+  padding: 5% auto;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.incorrect{
+    color: rgb(191, 39, 39);
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .incorrect{
+    color: rgb(191, 39, 39);
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  
+  .signupPage{
+    /* background-color: white; */
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+  
+  }
+  .size{
+    margin:8% auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* .size>div:focus{
+    border:1px solid rgb(203, 42, 42) !important ;
+  } */
+  .outlinedInput{
+    border:1px solid rgb(203, 42, 42) !important ;
+  }
+  .feilds{
+    padding-bottom: 4%;
+    width: 70%;
+  }
+  
+  .continue{
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    background-image: linear-gradient(to bottom right,#2874F0,#5F1EBE);
+    /* border-color: ; */
+    /* background-color: #f8ae53 !important; */
+    color: rgb(236, 223, 223) !important;
+  }
+  .continue:hover{
+    /* background-color: #fcbd71 !important; */
+    color: rgb(137, 9, 9) !important;
+  }
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color:rgb(203, 42, 42) !important;
+  }
+  /* .MuiFormControl-root ,.css-1nrlq1o-MuiFormControl-root{
+    border:1px solid rgb(203, 42, 42) !important ;
+  } */
+  .nav-link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+    margin:2% auto;
+  }
